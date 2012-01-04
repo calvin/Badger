@@ -8,7 +8,7 @@
     , Badge = '.badger-badge';
 
   $.fn.badger = function(badge, callback) {
-      var badgerExists = this.find(Badger).html();
+      var badgerExists = this.find(Badger).length;
 
       // Clear the badge
       if(!badge) {
