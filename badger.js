@@ -4,7 +4,7 @@
 // http://twitter.com/ThrivingKings
 
 (function( $ ) {
-  var Badger = '.badger-outer'
+  var Badger = '.badger-outter'
     , Badge = '.badger-badge';
 
   $.fn.badger = function(badge, callback) {
