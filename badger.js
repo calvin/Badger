@@ -16,6 +16,9 @@
           this.find(Badger).remove();
         }
       } else {
+        if(typeof badge != 'string'){
+          badge = badge.toString();
+        }
         // Figuring out badge data
         var oldBadge = this.find(Badge).text();
         if(badge.charAt(0)=='+') {
